@@ -13,7 +13,7 @@ library(scales)
 # ==============================================================================
 
 # Load the dataset from the local file
-# Original URL: "https://www.dropbox.com/scl/fi/dpfinq0nbog5955y3xvc8/cong_gen_election_and_ideology_dataset_master.csv?rlkey=7kpxrzeml102flz3tinodvz73&dl=1"
+# Original URL: "https://github.com/abonica/nyt_moderates_analysis/blob/134d5a79aa23e2c7f561ed90eb179f5a0e8c7776/cong_gen_election_and_ideology_dataset_master.csv"
 wdd <- read.csv("cong_gen_election_and_ideology_dataset_master.csv")
 
 # Use one 'mutate' call to create all new variables
