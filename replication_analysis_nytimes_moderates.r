@@ -23,8 +23,6 @@ wdd <- wdd %>%
   mutate(
     dem.fundraising = log1p(dem_total_receipts),
     rep.fundraising = log1p(rep_total_receipts),
-    dem.spending = log1p(dem_total_disbursements),
-    rep.spending = log1p(rep_total_disbursements),
     rep_diff = dem_diff * -1,
     dem_no_pac_contribs = as.numeric(dem_total_pac_contribs < 1000),
     rep_no_pac_contribs = as.numeric(rep_total_pac_contribs < 1000)
